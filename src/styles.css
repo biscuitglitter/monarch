@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.hex {
+margin-top: 0;
+height: 60px;
+width: 60px;
+box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+}
+
+.hexContainer {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 15px 20px;
+flex-wrap: wrap;
+}
+
+.buttonContainer {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 15px 20px;
+}
+
+button {  
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: rgb(60, 66, 22);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  min-height: 28px;
+  transition: background-color .24s,box-shadow .24s
+}
