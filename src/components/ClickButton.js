@@ -3,6 +3,7 @@ import { ViewContext } from "./context/ViewContext"
 
 const ClickButton = (props) => {  
   const { index, setIndex, allData } = useContext(ViewContext)
+
   const handleClick = (e) => {
     if (index === allData.length - 1 && e.currentTarget.name === "next") return
     if (index === 0 && e.currentTarget.name === "previous") return
